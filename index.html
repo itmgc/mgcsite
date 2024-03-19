@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MGC</title>
+
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+body{
+  background:  url("./images/UP1.jpg") no-repeat center/cover ;
+object-fit: cover;
+  min-height: 100vh;
+}
+
+.title{
+  /* color: #300d11; */
+  margin: 0;
+  /* text-align: center; */
+  background-color: rgba(255, 255, 255, .5);
+  width: fit-content;
+  padding: 1rem;
+  /* font-size:32px; */
+  border-radius: 15px;
+  /* box-shadow: 10px 1px 15px #000; */
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.title:hover{
+  box-shadow: 10px 1px 15px #000;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background: #000; */
+
+}
+
+.container .under{
+  background-color: rgba(255, 255, 255, .5);
+  padding: .5rem 5rem;
+  border-radius: 15px;
+  box-shadow: 10px 1px 15px #000;
+  transition: all .3s linear;
+  cursor: pointer;
+
+}
+
+.container .under:hover{
+  box-shadow: 15px 5px 20px #000;
+}
+.container .under h1{
+  color: #501018;
+  font-size: 42px;
+}
+  </style>
+</head>
+<body>
+  <div class="title">
+<img src="./images/MGC logo.png" alt="logo" width="500px">
+    <!-- <h1 >Mesopotamia For General Contracting</h1> -->
+  </div>
+  <div class="container">
+    <div class="under">
+
+      <h1>Under Process...</h1>
+    </div>
+  </div>
+</body>
+</html>
