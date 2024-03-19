@@ -11,11 +11,7 @@
       margin: 0;
       box-sizing: border-box;
     }
-body{
-  background:  url("./images/up1.jpg") no-repeat center/cover ;
-object-fit: cover;
-  min-height: 100vh;
-}
+
 
 .title{
   /* color: #300d11; */
@@ -31,16 +27,16 @@ object-fit: cover;
   cursor: pointer;
 }
 
-.title:hover{
+/* .title:hover{
   box-shadow: 10px 1px 15px #000;
-}
+} */
 
 .container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* background: #000; */
 
 }
@@ -49,14 +45,15 @@ object-fit: cover;
   background-color: rgba(255, 255, 255, .5);
   padding: .5rem 5rem;
   border-radius: 15px;
-  box-shadow: 10px 1px 15px #000;
-  transition: all .3s linear;
+  box-shadow: 5px 1px 10px #000;
+  transition: all .2s linear;
   cursor: pointer;
+  margin-left: 5rem;
 
 }
 
 .container .under:hover{
-  box-shadow: 15px 5px 20px #000;
+  box-shadow: 15px 5px 20px #7c2222;
 }
 .container .under h1{
   color: #501018;
@@ -70,6 +67,14 @@ object-fit: cover;
     <!-- <h1 >Mesopotamia For General Contracting</h1> -->
   </div>
   <div class="container">
+
+    <div class="main-header">
+      <video autoplay muted loop height="400px" width="600px">
+        <source src="./images/sv1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
     <div class="under">
 
       <h1>Under Process...</h1>
