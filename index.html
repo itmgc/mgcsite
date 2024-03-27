@@ -49,6 +49,8 @@
   transition: all .2s linear;
   cursor: pointer;
   margin-left: 5rem;
+  text-align: center;
+  margin: auto;
 
 }
 
@@ -57,12 +59,12 @@
 }
 .container .under h1{
   color: #501018;
-  font-size: 42px;
+  font-size: 3rem;
 }
 
 /* footer */
 footer{
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -72,17 +74,7 @@ footer{
   margin-top: 5rem;
 }
 
-.banner{
-  /* width: 70vw; */
-  height: 5rem;
-  position: absolute;
-  background-color: #fff;
-  z-index: 9;
- top: -1rem;
- left: 20rem;
- right: 20rem;
 
-}
 .contact{
   position: absolute;
   bottom: 0;
@@ -97,29 +89,30 @@ footer{
 
 }
 
+@media screen and (max-width: 640px) {
+  .container .under h1{
+  color: #501018;
+  font-size: 1.5rem;
+}
+
+  
+}
+
   </style>
 </head>
 <body>
   <div class="title">
-<img src="./images/MGC logo.png" alt="logo" width="500px">
+<img src="./images/MGC logo.png" alt="logo" width="300px">
     <!-- <h1 >Mesopotamia For General Contracting</h1> -->
   </div>
   <div class="container">
 
-    <div class="main-header">
-      <video autoplay muted loop height="400px" width="600px">
-        <source src="./images/sv1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
     <div class="under">
 
-      <h1>Under Process...</h1>
+      <h1>Coming soon...</h1>
     </div>
   </div>
   <footer>
-    <div class="banner"></div>
     <div class="contact">
       <div>
 <span>
@@ -133,7 +126,7 @@ footer{
         
       </div>
       <div>
-<h5>Copyright MGC 2024.</h3>
+<h5> MGC</h3>
       </div>
       </div>
     
